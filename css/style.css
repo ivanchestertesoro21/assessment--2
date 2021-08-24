@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+/* global config */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* global styling */
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+p {
+}
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.text-center {
+}
+
+.text-primary {
+}
+
+.bg-light {
+}
+
+.bg-dark {
+}
+
+.bg-primary {
+}
+
+.l-heading {
+  text-align: center;
+  color: #fff;
+  padding-top: 150px;
+}
+
+.m-heading {
+  text-align: center;
+  margin: 1em;
+}
+
+.lead {
+  color: #fff;
+  margin: 10px;
+}
+
+.py-1 {
+}
+.py-2 {
+}
+.py-3 {
+}
+
+.p-1 {
+}
+.p-2 {
+}
+.p-3 {
+}
+
+.btn {
+  font-size: 10px;
+  color: #fff;
+  background: greenyellow;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  color: grey;
+}
+
+.btn-dark {
+}
+
+.list {
+}
+
+.list li {
+}
+
+/* Navbar */
+#navbar {
+  color: #fff;
+  background-color: black;
+  overflow: auto;
+}
+/* line-height: 1em; */
+
+#navbar h1 {
+  float: left;
+  padding: 1em;
+}
+
+.text-primary {
+  color: green;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar ul li {
+  float: left;
+  padding: 20px;
+  /* overflow: auto; */
+}
+
+#navbar ul li a {
+  display: block;
+  /* padding: 20px; */
+}
+
+#navbar ul li a:hover {
+  color: green;
+}
+
+/* Showcase */
+#showcase {
+  background: url("https://bit.ly/2WkTz1J") no-repeat center center/cover;
+  height: 100vh;
+}
+
+#showcase .showcase-content {
+  background-color: rgba(22, 22, 22, 0.4);
+  height: 100vh;
+  text-align: center;
+}
+
+/* Section: What We Do */
+#what {
+  background: #f4f4f4;
+  padding: 40px;
+  padding-top: 10px;
+}
+
+#what .items {
+  display: flex;
+}
+
+#what .items .item {
+  display: flex;
+  margin: 20px;
+}
+
+#what .items .item i {
+  padding: 10px;
+  background: #8dca4a;
+  border-radius: 100px;
+}
+
+/* Section: Who We Are */
+/* #who {
+    display: flex;
+  }
+   
+  #who div {
+    flex: 1;
+  }
+   
+  #who .who-img {
+    background: url("../img/article.svg") no-repeat center center/cover;
+    height: 200px;
+    width: 200px;
+} */
+/* Section: Who We Are */
+#who {
+  display: flex;
+}
+
+#who div {
+  flex: 1;
+  padding-left: 40px;
+}
+
+#who .who-img {
+  height: 500px;
+  width: 200px;
+  background: url("https://bit.ly/3yhtptE") no-repeat center center/cover;
+}
+
+#who .who-text {
+  justify-content: le;
+}
+
+/* Section: Clients */
+#clients .items {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em;
+}
+
+#clients .items img {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100px;
+}
+#clients div .avenger {
+  height: 150px;
+}
+
+/* <footer id="main-footer" class="bg-dark text-center py-1">
+    <div class="container">
+      <p>Copyright &copy; 2021, CWD Batch 2</p>
+    </div>
+  </footer> */
+
+#main-footer {
+  margin-top: 10px;
+  height: 70px;
+  text-align: center;
+}
